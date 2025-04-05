@@ -17,9 +17,9 @@ end)()
 -- Pipsqueak
 coroutine.wrap(function()
     while true do
-        wait(20)
+        wait(12)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(1)
+        wait(9)
 loadstring(game:HttpGet('https://pastebin.com/raw/epkKZ3ak'))()
     end
 end)()
