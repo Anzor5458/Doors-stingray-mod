@@ -17,13 +17,12 @@ end)()
 -- Pipsqueak
 coroutine.wrap(function()
     while true do
-        wait(12)
+        wait(math.random(37,120))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(9)
+        wait(4)
 loadstring(game:HttpGet('https://pastebin.com/raw/epkKZ3ak'))()
     end
 end)()
-
 -- Abyss 
 coroutine.wrap(function()
     while true do
