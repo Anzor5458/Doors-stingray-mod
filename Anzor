@@ -4,32 +4,22 @@ wait(1)
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("stingray mode",true)
 wait(3)
 
--- Smiley
+-- Pipsqueak
 coroutine.wrap(function()
     while true do
-        wait(math.random(30,80))
+        wait(80)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(2)
-loadstring(game:HttpGet('https://pastebin.com/raw/R5i67c3H'))()
+loadstring(game:HttpGet('https://pastebin.com/raw/epkKZ3ak'))()
     end
 end)()
 
 -- Abyss 
 coroutine.wrap(function()
     while true do
-        wait(math.random(20,340))
+        wait(320)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(2)
 loadstring(game:HttpGet('https://pastebin.com/raw/UsJxmdnf'))()
-    end
-end)()
-
--- Pipsqueak
-coroutine.wrap(function()
-    while true do
-        wait(math.random(100,530))
-        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(2)
-loadstring(game:HttpGet('https://pastebin.com/raw/epkKZ3ak'))()
     end
 end)()
