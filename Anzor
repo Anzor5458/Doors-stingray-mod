@@ -7,9 +7,9 @@ wait(3)
 -- Smiley 
 coroutine.wrap(function()
     while true do
-        wait(math.random(80,120))
+        wait(math.random(50,700))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(2)
+        wait(9)
 loadstring(game:HttpGet('https://pastebin.com/raw/R5i67c3H'))()
     end
 end)()
@@ -17,9 +17,9 @@ end)()
 -- Pipsqueak
 coroutine.wrap(function()
     while true do
-        wait(80)
+        wait(20)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(2)
+        wait(1)
 loadstring(game:HttpGet('https://pastebin.com/raw/epkKZ3ak'))()
     end
 end)()
